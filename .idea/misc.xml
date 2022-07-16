@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bos_ana_sayfa.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/geri_sayim_buton.xml" value="0.2085" />
+        <entry key="app/src/main/res/layout/activity_ilk_giris.xml" value="0.21620025634765627" />
+        <entry key="app/src/main/res/layout/activity_kayit_sayfasi.xml" value="0.1838768115942029" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_profil_duzenleme_sayfasi.xml" value="0.22811737060546877" />
+        <entry key="app/src/main/res/layout/activity_profil_sayfasi.xml" value="0.20471954345703128" />
+        <entry key="app/src/main/res/layout/activity_puan_sayfasi.xml" value="0.16234718826405867" />
+        <entry key="app/src/main/res/layout/activity_sonuc_sayfasi.xml" value="0.2256597900390625" />
+        <entry key="app/src/main/res/layout/activity_soru_sayfasi.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_uygulama_acilis.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_yarisma_baslangic.xml" value="0.2619552612304688" />
+        <entry key="app/src/main/res/layout/activity_yarisma_sonuc.xml" value="0.16234718826405867" />
+        <entry key="app/src/main/res/layout/sayac_diyalog.xml" value="0.31130218505859375" />
+        <entry key="app/src/main/res/layout/sonuc_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/tekli_gorunum.xml" value="0.16234718826405867" />
+        <entry key="app/src/main/res/layout/yarisma_sonuclar_item.xml" value="0.16234718826405867" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/provider_paths.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

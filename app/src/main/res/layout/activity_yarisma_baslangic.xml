@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A3250"
+    tools:context=".YarismaBaslangic">
+
+    <ImageView
+        android:id="@+id/yarismaBaslangicResim"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="67dp"
+        app:layout_constraintBottom_toTopOf="@+id/yarismaBaslangicMetin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/yarismaBaslangicMetin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="46dp"
+        android:text="//@isim hoşgeldiniz"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/puanGoster"
+        app:layout_constraintStart_toStartOf="@+id/puanGoster"
+        app:layout_constraintTop_toBottomOf="@+id/yarismaBaslangicResim" />
+
+    <Button
+        android:id="@+id/puanGoster"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="Puan tablosu"
+        app:layout_constraintBottom_toTopOf="@+id/yarismaBasla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yarismaBaslangicMetin" />
+
+    <Button
+        android:id="@+id/yarismaBasla"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="Yarışmaya Başla"
+        app:layout_constraintBottom_toTopOf="@+id/cikisYap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puanGoster" />
+
+    <Button
+        android:id="@+id/cikisYap"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="198dp"
+        android:text="Çıkış Yap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yarismaBasla" />
+</androidx.constraintlayout.widget.ConstraintLayout>

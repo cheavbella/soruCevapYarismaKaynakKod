@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ilkGiris">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="114dp"
+        app:layout_constraintBottom_toTopOf="@+id/ePostaArea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ePostaArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="358dp"
+        android:ems="10"
+        android:hint="E-posta adresiniz"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/girisBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:onClick="girisYap"
+        android:text="Giriş yap"
+        app:layout_constraintEnd_toEndOf="@+id/passwordArea"
+        app:layout_constraintStart_toStartOf="@+id/passwordArea"
+        app:layout_constraintTop_toBottomOf="@+id/passwordArea"
+        tools:ignore="OnClick" />
+
+    <EditText
+        android:id="@+id/passwordArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Şifreniz"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/ePostaArea"
+        app:layout_constraintTop_toBottomOf="@+id/ePostaArea" />
+
+    <TextView
+        android:id="@+id/textKayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:text="Hesabın yoksa"
+        app:layout_constraintBaseline_toBaselineOf="@+id/kayitBtn"
+        app:layout_constraintEnd_toStartOf="@+id/kayitBtn"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kayitBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/kayit_ol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textKayit"
+        app:layout_constraintTop_toBottomOf="@+id/girisBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

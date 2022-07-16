@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A3250"
+    tools:context=".SonucSayfasi">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="40dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:gravity="center"
+                android:text="Skorunuz"
+                android:textSize="45dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="95dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/skorSonuc"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="120dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/skorPaylasSonuc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Skoru Paylaş"
+        android:textColor="#0B0A0A"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/anasayfaSonuc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cikisYapSonuc" />
+
+    <Button
+        android:id="@+id/anasayfaSonuc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="151dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Anasayfa'ya dön"
+        android:textColor="#0B0A0A"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skorPaylasSonuc" />
+
+    <Button
+        android:id="@+id/cikisYapSonuc"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="416dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="cikisYapSonuc"
+        android:text="Çıkış Yap"
+        android:textColor="#0B0A0A"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/skorPaylasSonuc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

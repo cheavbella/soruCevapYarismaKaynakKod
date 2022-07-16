@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326976180613",
+    "firebase_url": "https://kartvizit-uygulamasi-default-rtdb.firebaseio.com",
+    "project_id": "kartvizit-uygulamasi",
+    "storage_bucket": "kartvizit-uygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326976180613:android:2694789cbedd77657074ec",
+        "android_client_info": {
+          "package_name": "com.hamza.kartvizit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326976180613-9mrn2epl1qgk8f2q88os80f2halthk0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbLXjL45e0a_1PnlKrTQ5gjvfcDQ_trw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326976180613-9mrn2epl1qgk8f2q88os80f2halthk0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
